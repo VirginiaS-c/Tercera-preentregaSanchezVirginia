@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Mi Proyecto Django{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>{% block header %}Bienvenido a Mi Proyecto Django{% endblock %}</h1>
+    </header>
+    <nav>
+        {% block nav %}
+        <ul>
+            <li><a href="{% url 'index' %}">Inicio</a></li>
+            <li><a href="{% url 'insert_data' %}">Insertar Datos</a></li>
+            <li><a href="{% url 'search' %}">Buscar</a></li>
+        </ul>
+        {% endblock %}
+    </nav>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        {% block footer %}© 2024 Mi Proyecto Django{% endblock %}
+    </footer>
+</body>
+</html>
