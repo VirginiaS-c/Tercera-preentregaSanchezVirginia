@@ -1,7 +1,7 @@
 # Tercera pre-entrega Virginia Sanchez
 
 ## Descripción
-Este proyecto es una aplicación web desarrollada con Django que permite gestionar libros. Incluye funcionalidades para insertar y buscar libros, autores y editoriales.
+Este proyecto es una aplicación web desarrollada con Django que permite gestionar libros. Incluye funcionalidades para insertar y buscar libros y autores. 
 
 ## Funcionalidades
 - Herencia de HTML
@@ -18,6 +18,3 @@ Este proyecto es una aplicación web desarrollada con Django que permite gestion
    - `/` para ver la lista de libros.
    - `/insert/` para insertar datos.
    - `/search/` para buscar libros.
-
-## Repositorio
-[GitHub - Tercera pre-entrega Virginia Sanchez](https://github.com/tu-usuario/tercera-preentrega-virginia-sanchez)
